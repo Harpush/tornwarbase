@@ -1,0 +1,32 @@
+{
+  "name": "tornwarbase",
+  "version": "1.0.0",
+  "description": "Lets you get filtered warbase prodiles based on filters in personal stats using the torn API and faction API joining",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harpush/tornwarbase.git"
+  },
+  "keywords": [
+    "torn",
+    "warbase",
+    "rest",
+    "node"
+  ],
+  "author": "Harpush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harpush/tornwarbase/issues"
+  },
+  "homepage": "https://github.com/Harpush/tornwarbase#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
